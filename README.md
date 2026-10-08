@@ -9,7 +9,7 @@ A Claude Code plugin that changes the reasoning effort level and the model from 
 |---|---|---|
 | Effort up: low, medium, high, xhigh, then back to low | Cmd+E or Option+E | Alt+E |
 | Effort down, wrapping from low to xhigh | Cmd+Shift+E or Option+Shift+E | Alt+Shift+E |
-| Next model: Haiku 4.5, Sonnet 5.5, Opus 5.5, Fable 5.1, then back to Haiku 4.5 | Cmd+P or Option+P | Alt+P |
+| Next model: Haiku 5.5, Sonnet 5.5, Opus 5.5, Fable 5.1, then back to Haiku 5.5 | Cmd+P or Option+P | Alt+P |
 | Previous model | Option+Shift+P | Alt+Shift+P |
 
 - The footer shows the model and level that the next request uses, for example `Sonnet 5.5 · effort: high`.
@@ -88,7 +88,7 @@ To use the Cmd keys too, map them in the terminal as the Ghostty lines do.
 Run `/config` to change these settings:
 
 - **Effort shortcut: lowest level** and **Effort shortcut: highest level**. The effort shortcuts cycle only through the levels between them. The default range is low to xhigh. Set the highest level to max to include max.
-- **Model shortcut: include Haiku 4.5**, **Sonnet 5.5**, **Opus 5.5**, and **Fable 5.1**. The model shortcuts cycle only through the models that are on. All four are on by default.
+- **Model shortcut: include Haiku 5.5**, **Sonnet 5.5**, **Opus 5.5**, and **Fable 5.1**. The model shortcuts cycle only through the models that are on. All four are on by default.
 
 ## How it works
 
@@ -102,7 +102,6 @@ Run `/config` to change these settings:
 
 - Claude Code's own displays show its own model and level. This includes the effort line near the prompt, the spinner, status line scripts, and the `CLAUDE_EFFORT` variable. Use the plugin's footer text to see the model and level that requests use.
 - Subagents keep Claude Code's own model and level.
-- Haiku 4.5 has no effort setting in Claude Code. When Haiku 4.5 is selected, the footer shows no level and the effort shortcuts do nothing.
 - A model switch starts a new prompt cache, so the next request costs more.
 - Models have different context windows. If the conversation is larger than the new model's window, the request fails. Switch back, or run `/compact`.
 - In the agents view, the keys do the agents view's own jump actions.
