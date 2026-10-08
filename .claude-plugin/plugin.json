@@ -37,8 +37,8 @@
     },
     "haiku": {
       "type": "boolean",
-      "title": "Model shortcut: include Haiku 4.5",
-      "description": "The model shortcuts cycle through Haiku 4.5.",
+      "title": "Model shortcut: include Haiku 5.5",
+      "description": "The model shortcuts cycle through Haiku 5.5.",
       "default": true
     },
     "sonnet": {

@@ -6,7 +6,7 @@ type ModelEntry = { id: string; prefix: string; name: string; option: string; ef
 
 const ORDER: readonly Level[] = ['low', 'medium', 'high', 'xhigh', 'max']
 const MODELS: readonly ModelEntry[] = [
-  { id: 'claude-haiku-4-5-20251001', prefix: 'claude-haiku-4-5', name: 'Haiku 4.5', option: 'haiku', effort: false },
+  { id: 'claude-haiku-5-5', prefix: 'claude-haiku-5-5', name: 'Haiku 5.5', option: 'haiku', effort: true },
   { id: 'claude-sonnet-5-5', prefix: 'claude-sonnet-5-5', name: 'Sonnet 5.5', option: 'sonnet', effort: true },
   { id: 'claude-opus-5-5', prefix: 'claude-opus-5-5', name: 'Opus 5.5', option: 'opus', effort: true },
   { id: 'claude-fable-5-1', prefix: 'claude-fable-5-1', name: 'Fable 5.1', option: 'fable', effort: true },
