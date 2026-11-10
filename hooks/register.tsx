@@ -9,7 +9,7 @@ const MODELS: readonly ModelEntry[] = [
   { id: 'claude-haiku-5-5', prefix: 'claude-haiku-5-5', name: 'Haiku 5.5', option: 'haiku', effort: true },
   { id: 'claude-sonnet-5-5', prefix: 'claude-sonnet-5-5', name: 'Sonnet 5.5', option: 'sonnet', effort: true },
   { id: 'claude-opus-5-5', prefix: 'claude-opus-5-5', name: 'Opus 5.5', option: 'opus', effort: true },
-  { id: 'claude-fable-5-1', prefix: 'claude-fable-5-1', name: 'Fable 5.1', option: 'fable', effort: true },
+  { id: 'claude-fable-5-2', prefix: 'claude-fable-5-2', name: 'Fable 5.2', option: 'fable', effort: true },
 ]
 const FALLBACK: Level = 'high'
 const SAVED_LEVELS = 'savedPicks'

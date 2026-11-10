@@ -55,8 +55,8 @@
     },
     "fable": {
       "type": "boolean",
-      "title": "Model shortcut: include Fable 5.1",
-      "description": "The model shortcuts cycle through Fable 5.1.",
+      "title": "Model shortcut: include Fable 5.2",
+      "description": "The model shortcuts cycle through Fable 5.2.",
       "default": true
     }
   }
